@@ -1,0 +1,35 @@
+﻿<Window x:Class="LibraryManagement.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Книги"
+        Width="120"
+        Margin="117,66,563,302"
+                Click="BooksButton_Click"/>
+        <Button Content="Читатели"
+        Width="120"
+        Margin="117,176,563,183"
+                Click="ReadersButton_Click"/>
+        <Button Content="Выдача"
+        Width="120"
+        Margin="117,297,563,66"
+                Click="IssueButton_Click"/>
+        <Button Content="Возврат"
+        Width="120"
+        Margin="560,67,120,302"
+                Click="ReturnButton_Click"/>
+        <Button Content="Очередь"
+        Margin="560,297,120,66"
+        Click="QueueButton_Click"/>
+        <Button Content="Отчеты"
+        Width="120"
+        Margin="560,176,120,183" RenderTransformOrigin="0.552,0.504"
+                Click="ReportsButton_Click"/>
+        <Button Content="Диаграмма"
+        Click="ChartButton_Click" Margin="340,182,340,183" RenderTransformOrigin="0.519,1.636"/>
+    </Grid>
+</Window>
